@@ -1,64 +1,156 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-11-21T09:28:58" id="0" hostname="workspace8kg89wyeeedb5el1.ws-7fb4cdcb66-zdhmx" tests="5" errors="1" failures="5" time="0.139">
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-11-21T09:38:15" id="0" hostname="workspace8kg89wyeeedb5el1.ws-7fb4cdcb66-zdhmx" tests="5" errors="1" failures="5" time="0.231">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
   </properties>
-  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.085" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 37.8.
+  <testcase name="TemperatureConverter Perform series of actions" time="0.197" classname=".TemperatureConverter">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
     at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:78:40
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:23935:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22200:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13852:1)
+    at NodeInjectorFactory.TemperatureConverter_Factory [as factory] (ng:///TemperatureConverter/ɵfac.js:3:48)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7954:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
     at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:23:26
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushFahrenheitValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:22:48)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:82:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
 </failure>
   </testcase>
-  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.022" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 932.
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.009" classname=".TemperatureConverter">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
     at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:60:43
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:23935:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22200:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13852:1)
+    at NodeInjectorFactory.TemperatureConverter_Factory [as factory] (ng:///TemperatureConverter/ɵfac.js:3:48)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7954:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
     at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:23:26
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushFahrenheitValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:22:48)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:70:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
 </failure>
   </testcase>
-  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.01" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 500.
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.008" classname=".TemperatureConverter">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
     at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:72:40
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:23935:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22200:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13852:1)
+    at NodeInjectorFactory.TemperatureConverter_Factory [as factory] (ng:///TemperatureConverter/ɵfac.js:3:48)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7954:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
     at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:23:26
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushFahrenheitValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:22:48)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:76:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
 </failure>
   </testcase>
-  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.011" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 89.6.
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.008" classname=".TemperatureConverter">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
     at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:66:43
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:23935:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22200:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13852:1)
+    at NodeInjectorFactory.TemperatureConverter_Factory [as factory] (ng:///TemperatureConverter/ɵfac.js:3:48)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7954:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
     at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:15:23
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushCelsiusValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:14:45)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:58:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
 </failure>
   </testcase>
-  <testcase name="TemperatureConverter Perform series of actions" time="0.011" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal -12.2.
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.009" classname=".TemperatureConverter">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
     at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:84:40
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11181:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:23935:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22200:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13852:1)
+    at NodeInjectorFactory.TemperatureConverter_Factory [as factory] (ng:///TemperatureConverter/ɵfac.js:3:48)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7954:1)
 </failure>
-    <failure type="">Error: Expected 10 to equal 50.
+    <failure type="">TypeError: Cannot set property 'value' of undefined
     at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:88:43
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:15:23
     at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-    <failure type="">Error: Expected 10 to equal 93.3.
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushCelsiusValue (http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:14:45)
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:64:11
     at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:92:40
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-    <failure type="">Error: Expected 200 to equal 478.4.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:96:43
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
 </failure>
   </testcase>
   <system-out>
